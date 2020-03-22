@@ -1,0 +1,71 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6909d3abbd0135304315ade8d5349a7f",
+    "packages": [
+        {
+            "name": "prggmr/xpspl",
+            "version": "v5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/prggmr/XPSPL.git",
+                "reference": "903d94493737cbad1705b91b12e30fb684b34da0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/prggmr/XPSPL/zipball/903d94493737cbad1705b91b12e30fb684b34da0",
+                "reference": "903d94493737cbad1705b91b12e30fb684b34da0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "bin": [
+                "bin/xpspl"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "XPSPL": "XPSPL"
+                },
+                "files": [
+                    "__init__.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache 2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nickolas Whiting",
+                    "email": "prggmr@gmail.com",
+                    "homepage": "http://prggmr.com"
+                }
+            ],
+            "description": "Signals for PHP",
+            "homepage": "http://prggmr.com",
+            "keywords": [
+                "events",
+                "io",
+                "non blocking io",
+                "non-blocking ftp",
+                "signal",
+                "time"
+            ],
+            "time": "2014-03-18T16:47:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
